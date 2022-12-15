@@ -1,0 +1,37 @@
+Preda Ioan Alexandru-323CB
+Linii:
+Pentru a determina daca o linie e valida pornesc de la steluta
+din stanga si verific daca se intalnesc numerele de la 1 la 4,
+iar daca ajung la urmatoarea steluta fara sa intalnim una din cifre
+atunci aceasta linie este invalida
+
+Coloane:
+Pentru coloana intai parcurg elemente pana dau de *,iar apoi verific daca
+elementul urmator e cifra dorita;
+Pentru coloana a doua parcurg elemente pana dau de :,iar apoi verific daca
+elementul anterior e cifra dorita;
+Pentru coloana a treia parcurg elemente pana dau de :,iar apoi verific daca
+elementul urmator e cifra dorita;
+Pentru coloana patra parcurg elemente pana dau de *,iar apoi verific daca
+elementul anterior e cifra dorita;
+
+Patrate:
+Pentru primul patrat ma duc la inceputul listei si iau elementele de la *  pana la primul :,
+verific daca unul din cele 2 elemente e cifra dorita,iar daca nu voi parcurge lista pana 
+intalnesc urmatorarea * si voi repeta procedeul descris anterior
+
+Pentru al doilea patrat ma intorc la inceputul listei si voi parcurge elementele 
+pana voi intalni : urmand sa parcurg elementele in dreapta pana ajung la *,verific 
+daca unul din cele 2 elemente e cifra dorita,iar daca nu voi parcurge lista pana 
+intalnesc urmatorarul : si voi repeta procedeul descris anterior
+
+Pentru al doilea patrat ma duc la sfarsitul listei si voi parcurge elementele 
+pana voi intalni : urmand sa parcurg elementele in stanga pana ajung la *,verific 
+daca unul din cele 2 elemente e cifra dorita,iar daca nu voi parcurge lista pana 
+intalnesc urmatorarul : si voi repeta procedeul descris anterior
+
+Pentru al patrulea patrat ma duc la sfarsitul listei si iau elementele de la *  pana la primul :,
+verific daca unul din cele 2 elemente e cifra dorita,iar daca nu voi parcurge lista pana 
+intalnesc urmatorarea * si voi repeta procedeul descris anterior
+
+Daca una din cifre nu va fi gasita atunci masina Turing va intra in starea N,si se va opri acolo
